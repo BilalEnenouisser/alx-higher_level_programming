@@ -42,7 +42,7 @@ try:
     print("File size: {:d}".format(file_size))
     for key, value in sorted(status_tally.items()):
         if value:
-            print("{:s}: {:d}".format(key, value))
+            print("{:s}: {:d}".format(key, ))
 
 except KeyboardInterrupt:
     print("File size: {:d}".format(file_size))
